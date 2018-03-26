@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed');
+
+
+
+* {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+}
+
+.container {
+    height: 100vh;
+    background: url(timer.jpg) center/cover no-repeat;
+
+}
+
+body {
+    font-size: 72px;
+    color: forestgreen;
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    margin-right: 5px;
+    padding: 5px 15px;
+    font-size: 24px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: darkgreen;
+    text-shadow: 1px 1px 3px #FEFEFE;
+    background-color: lightblue;
+}
+
+button:hover {
+    -webkit-box-shadow: 0 0 5px 3px #FFF;
+    box-shadow: 0 0 5px 3px #FFF;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+    color: yellowgreen;
+}
+
+.fa {
+    color: red;
+}
